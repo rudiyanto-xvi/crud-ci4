@@ -1,0 +1,10 @@
+alur codeigniter 4
+- ubah file env ke .env
+  - matikan tanda # pada file env (yang diperlukan)
+- urutan folder :
+  (Routes dan Controller)
+  - app -> routes -> $routes->get('/', 'Home::index');
+  - Home = Nama Controller
+  - index = methode Controller
+  - kemudian mengeksekusi file index di controller Home
+  - kemudian mengeksekusi code return view('welcome_message');
